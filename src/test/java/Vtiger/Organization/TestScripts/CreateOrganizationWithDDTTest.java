@@ -65,7 +65,7 @@ public class CreateOrganizationWithDDTTest extends BaseClass {
 				System.out.println("Bye");
 				}
             
-            @Test  (groups = "Regressionsuite") 
+            @Test  (groups = "RegressionsSuite") 
 			public void test3() {
 				System.out.println("Hello");
 				}
