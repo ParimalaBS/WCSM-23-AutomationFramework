@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-16T17:28:00 IST" name="Default suite" finished-at="2023-01-16T17:28:00 IST" duration-ms="143">
+  <suite started-at="2023-01-25T22:18:22 IST" name="Suite" finished-at="2023-01-25T22:18:23 IST" duration-ms="1185">
     <groups>
+      <group name="SmokeSuite">
+        <method signature="CreateOrganizationWithDDTTest.test1()[pri:0, instance:Vtiger.Organization.TestScripts.CreateOrganizationWithDDTTest@67d48005]" name="test1" class="Vtiger.Organization.TestScripts.CreateOrganizationWithDDTTest"/>
+      </group> <!-- SmokeSuite -->
     </groups>
-    <test started-at="2023-01-16T17:28:00 IST" name="Default test" finished-at="2023-01-16T17:28:00 IST" duration-ms="143">
-      <class name="Vtiger.Practice.ReadDataFromMavenCommandLine">
-        <test-method signature="ReadData()[pri:0, instance:Vtiger.Practice.ReadDataFromMavenCommandLine@5119fb47]" started-at="2023-01-16T17:28:00 IST" name="ReadData" finished-at="2023-01-16T17:28:00 IST" duration-ms="25" status="PASS">
+    <test started-at="2023-01-25T22:18:22 IST" name="Test" finished-at="2023-01-25T22:18:23 IST" duration-ms="1185">
+      <class name="Vtiger.Organization.TestScripts.CreateOrganizationWithDDTTest">
+        <test-method signature="test1()[pri:0, instance:Vtiger.Organization.TestScripts.CreateOrganizationWithDDTTest@67d48005]" started-at="2023-01-25T22:18:23 IST" name="test1" finished-at="2023-01-25T22:18:23 IST" duration-ms="49" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReadData -->
-      </class> <!-- Vtiger.Practice.ReadDataFromMavenCommandLine -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test1 -->
+      </class> <!-- Vtiger.Organization.TestScripts.CreateOrganizationWithDDTTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
