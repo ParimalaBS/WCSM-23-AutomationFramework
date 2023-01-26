@@ -11,8 +11,8 @@ public class ReadDataFromMavenCommandLine  extends BaseClass{
 	@Test
 	public void ReadData() {
 		
-		String BROWSER = System.getProperty("browser");
-		System.out.println(BROWSER);
+		String Browser = System.getProperty("browser");
+		System.out.println(Browser);
 		
 		String URL=System.getProperty("url");
 		System.out.println(URL);
